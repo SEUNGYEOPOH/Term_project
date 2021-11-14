@@ -1,0 +1,89 @@
+@charset "utf-8";
+#wrap {
+	height: auto;
+	width: 1024px;
+	margin-right: auto;
+	margin-left: auto;
+	float: none;
+}
+#page_header {
+	float: left;
+	height: 150px;
+	width: 1024px;
+}
+#left_logo {
+	float: left;
+	height: 110px;
+	width: 270px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#center_logo {
+	float: left;
+	height: 50px;
+	width: 300px;
+	margin-left: 92px;
+}
+#menubar {
+	float: left;
+	height: 75px;
+	width: 400px;
+	margin-left: 42px;
+	margin-top: 25px;
+}
+#right_menu {
+	float: right;
+	height: 30px;
+	width: 270px;
+}
+#main {
+	float: left;
+	height: 500px;
+	width: 1024px;
+}
+#poster {
+	float: left;
+	height: 300px;
+	width: 1024px;
+}
+#poster_toptitle {
+	float: left;
+	height: 40px;
+	width: 1024px;
+}
+#bannerset {
+	float: left;
+	height: 220px;
+	width: 724px;
+	margin-top: 20px;
+	margin-left: 150px;
+}
+.ban {
+	float: left;
+	height: 210px;
+	width: 190px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+#event {
+	float: left;
+	height: 300px;
+	width: 1024px;
+}
+#event_title {
+	float: left;
+	height: 40px;
+	width: 1024px;
+}
+#event_box {
+	float: left;
+	height: 240px;
+	width: 724px;
+	margin-top: 20px;
+	margin-left: 150px;
+}
+#footer {
+	float: left;
+	height: 250px;
+	width: 1024px;
+}
