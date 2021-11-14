@@ -1,0 +1,22 @@
+Local -> 정찬호씨의 노트북안에 저장된 파일들
+
+
+remote -> 원격 저장소
+
+
+sy_local -> 오승엽 노트북안에 저장된 파일들
+
+우클릭, git bash here
+
+git clone 'https://github.com/SEUNGYEOPOH/Term_project' -> 원격저장소랑 로컬저장소를 연결시켜주는거야
+
+
+git status -> 회색 -> 아무것도 , 빨간 글씨 add, 초록색 준비가 완료 
+
+파일을 폴더에 추가하기 
+
+git add 'file name'
+
+git commit -m ''
+
+git push origin main
