@@ -1,35 +1,40 @@
 @charset "utf-8";
+@import url("term/양진체/stylesheet.css");
+
 #wrap {
 	height: auto;
 	width: 1024px;
 	margin-right: auto;
 	margin-left: auto;
 	float: none;
+	color: #000;
 }
 #page_header {
 	float: left;
 	height: 150px;
 	width: 1024px;
+	background-color: #FFF;
+	background-image: url(../../../web1/%EB%A0%88%ED%8A%B8%EB%A1%9C%20%EB%B0%B0%EA%B2%BD%ED%99%94%EB%A9%B4.png);
 }
 #left_logo {
 	float: left;
-	height: 110px;
-	width: 270px;
-	margin-top: 20px;
-	margin-bottom: 20px;
+	height: 146px;
+	width: 278px;
 }
 #center_logo {
-	float: left;
-	height: 50px;
-	width: 300px;
-	margin-left: 92px;
-}
-#menubar {
 	float: left;
 	height: 75px;
 	width: 400px;
 	margin-left: 42px;
-	margin-top: 25px;
+	margin-top: 15px;
+	font-size: 50px;
+	text-align: center;
+	line-height: normal;
+	font-weight: bolder;
+	font-style: italic;
+	color: #FFF;
+	font-family: "양진체";
+	text-decoration: underline line-through blink;
 }
 #right_menu {
 	float: right;
@@ -40,16 +45,24 @@
 	float: left;
 	height: 500px;
 	width: 1024px;
+	background-color: #333;
+	background-image: url(../../../web1/%EB%B2%BD%EB%8F%8C%202.png);
 }
 #poster {
 	float: left;
 	height: 300px;
 	width: 1024px;
+	font-family: "양진체";
+	background-color: #FFC;
 }
 #poster_toptitle {
 	float: left;
 	height: 40px;
 	width: 1024px;
+	font-size: 40px;
+	color: #F00;
+	font-weight: bold;
+	font-style: italic;
 }
 #bannerset {
 	float: left;
@@ -60,8 +73,8 @@
 }
 .ban {
 	float: left;
-	height: 210px;
-	width: 190px;
+	height: 212px;
+	width: 150px;
 	margin-top: 10px;
 	margin-left: 10px;
 }
@@ -69,11 +82,16 @@
 	float: left;
 	height: 300px;
 	width: 1024px;
+	background-image: url(../../../web1/%EB%A0%88%ED%8A%B8%EB%A1%9C%20%EB%B0%B0%EA%B2%BDd.jpg);
 }
 #event_title {
 	float: left;
 	height: 40px;
 	width: 1024px;
+	font-family: "양진체";
+	font-size: 50px;
+	color: #F00;
+	font-style: italic;
 }
 #event_box {
 	float: left;
@@ -81,9 +99,97 @@
 	width: 724px;
 	margin-top: 20px;
 	margin-left: 150px;
+	border: medium solid #000;
 }
 #footer {
 	float: left;
-	height: 250px;
+	height: 200px;
 	width: 1024px;
+	background-color: #f4f4f4;
+}
+#wrap #page_header #menubar div {
+	font-family: 맑은 고딕;
+}
+#menubar {
+	float: left;
+	height: 40px;
+	width: 400px;
+	margin-left: 42px;
+	margin-top: 5px;
+	text-align: center;
+	font-size: 23px;
+	font-style: italic;
+	color: #F00;
+	font-weight: normal;
+	-webkit-transition: all;
+	-moz-transition: all;
+	-ms-transition: all;
+	-o-transition: all;
+	transition: all;
+	font-family: "양진체";
+	margin-bottom: 10px;
+}
+#wrap #page_header #right_menu div a {
+	font-family: "맑은 고딕";
+	color: #FFF;
+}
+#wrap #page_header #menubar a {
+	font-size: 20px;
+}
+#wrap #page_header #menubar a {
+	font-family: "양진체";
+	font-weight: normal;
+	font-size: 23px;
+	color: #F00;
+	font-style: italic;
+}
+.event_picture {
+	float: left;
+	height: 230px;
+	width: 220px;
+	margin-left: 15px;
+	margin-top: 5px;
+}
+#moving_menu {
+	float: right;
+	height: 300px;
+	width: 100px;
+	margin-left: 1030px;
+	clear: right;
+}
+#main_poster {
+	float: right;
+	height: 420px;
+	width: 301px;
+	margin-top: 40px;
+	margin-right: 48px;
+	margin-bottom: 40px;
+	margin-left: 48px;
+}
+#footer_top {
+	float: left;
+	height: 20px;
+	width: 500px;
+	margin-top: 25px;
+	margin-left: 35px;
+	font-size: 12px;
+}
+#footer_bottom {
+	float: left;
+	height: 100px;
+	width: 700px;
+	margin-top: 30px;
+	margin-left: 35px;
+}
+#footer_logo {
+	float: left;
+	height: 100px;
+	width: 200px;
+}
+#footer_write {
+	float: left;
+	height: 100px;
+	width: 490px;
+	margin-left: 10px;
+	font-size: 10px;
 }
