@@ -26,6 +26,16 @@
 	height: 900px;
 	width: 100%;
 }
+#new_arrivals {
+	float: left;
+	height: auto;
+	width: 1300px;
+}
+#best_item {
+	float: left;
+	height: auto;
+	width: 1300px;
+}
 #footer {
 	float: left;
 	height: 200px;
@@ -63,6 +73,29 @@
 	font-size: 12px;
 	font-weight: bold;
 }
+#new_arrival_title {
+	height: 90px;
+	width: 1300px;
+	margin-top: 20px;
+	font-size: 12px;
+	font-family: "맑은 고딕";
+}
+.ban {
+	height: 650px;
+	width: 426px;
+	margin-top: 20px;
+	margin-left: 5px;
+	float: left;
+	font-size: 12px;
+}
+#best_item_title {
+	height: 90px;
+	width: 1300px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 12px;
+	font-family: "맑은 고딕";
+}
 #footer_copyright {
 	float: left;
 	height: 150px;
@@ -92,7 +125,13 @@
 #wrap #footer .footer_ban h4 {
 	font-size: 12px;
 }
+#wrap #new_arrivals #new_arrival_title h2 {
 
-<form>
-  <button>SUBMIT</button>
-</form>
+}
+.ban_detail {
+	height: 110px;
+	width: 370px;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-left: 27px;
+}

@@ -1,0 +1,24 @@
+@charset "utf-8";
+#main {
+	height: 600px;
+	width: 1300px;
+}
+#wrap #main table {
+	height: 250px;
+	width: 300px;
+	margin-top: 100px;
+	margin-right: 500px;
+	margin-left: 500px;
+	border-top-width: thick;
+	border-right-width: thick;
+	border-bottom-width: thick;
+	border-left-width: thick;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-top-color: #000;
+	border-right-color: #000;
+	border-bottom-color: #000;
+	border-left-color: #000;
+	border-top-style: solid;
+	border-bottom-style: solid;
+}
