@@ -6,20 +6,20 @@
 <link href="file:///C|/Users/ms/Desktop/layout.css" rel="stylesheet" type="text/css" />
 <style type="text/css">
 a:link {
-	color: #FFF;
+	color: #000;
 	text-decoration: none;
 }
 a:visited {
 	text-decoration: none;
-	color: #FFF;
+	color: #000;
 }
 a:hover {
 	text-decoration: none;
-	color: #FFF;
+	color: #000;
 }
 a:active {
 	text-decoration: none;
-	color: #FFF;
+	color: #000;
 	font-size: 10px;
 }
 </style>
@@ -32,16 +32,57 @@ a:active {
 <div id="wrap">
   <div id="header_exchange">
     <div align="center">
-      -교환/반품시 필독사항
+     <div style="cursor: pointer;" onclick="location.href='http://poppy-leni-life.tistory.com/';">-교환 반품 시 필독사항 </div>
+      
     </div>
   </div>
   <div id="page_header">
-    <div id="page_header_logo">d</div>
-    <div id="menubar">
-      <div align="center">NEW 　　아우터 　　상의 　　셔츠 　　수트 　　하의 　　트레이닝복</div>
+    <div id="page_header_logo"><img src="webimages/page_header/Logo_03.png" width="200" height="100" /></div>
+    <div id="menubar"><div id="menu">
+	<ul>
+		<li><a href="#">NEW</a>
+		</li>
+		<li><a href="#">아우터</a>
+			<ul>
+				<li><a href="#">코트</a></li>
+				<li><a href="#">자켓/점퍼</a></li>
+				<li><a href="#">가디건</a></li>
+			</ul>
+		</li>
+		<li><a href="#">상의</a>
+			<ul>
+				<li><a href="#">니트</a></li>
+				<li><a href="#">긴팔티</a></li>
+				<li><a href="#">맨투맨/후드티</a></li>
+			</ul>
+		</li>
+		<li><a href="#">셔츠</a>
+			<ul>
+				<li><a href="#">무지</a></li>
+				<li><a href="#">체크</a></li>
+				<li><a href="#">스트라이프/패턴</a></li>
+			</ul>
+		</li>
+		<li><a href="#">수트</a>
+			<ul>
+				<li><a href="#">SUIT</a></li>
+			</ul>
+		</li>
+        <li><a href="#">하의</a>
+			<ul>
+				<li><a href="#">슬랙스</a></li>
+				<li><a href="#">데님</a></li>
+				<li><a href="#">면팬츠</a></li>
+			</ul>
+		</li>
+        <li><a href="#">트레이닝복</a>
+		</li>
+	</ul>
+</div>
+      
     </div>
     <div id="page_right_menu">
-      <div align="center">로그인 　　회원가입 </div>
+      <div align="center"><a href="#">로그인</a> 　　<a href="#">회원가입</a></div>
     </div>
   </div>
   <div id="main">
@@ -62,7 +103,7 @@ a:active {
     <td>비밀번호</td>
     <td><form id="form2" name="form2" method="post" action="">
       <label for="password"></label>
-      <input type="text" name="password" id="password" />
+      <input name="password" type="password" id="password" />
     </form></td>
   </tr>
   

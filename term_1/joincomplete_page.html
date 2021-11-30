@@ -24,7 +24,7 @@ a:active {
 }
 </style>
 <link href="layout.css" rel="stylesheet" type="text/css" />
-<link href="joinpage.css" rel="stylesheet" type="text/css" />
+<link href="joincomplete.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
@@ -89,90 +89,38 @@ a:active {
     <div id="main_title">
       <div align="center">
         <p>&nbsp;</p>
-        <p>JOIN US</p>
+        <p>JOIN COMPLETE</p>
+        <p>회원가입이 완료되었습니다.</p>
       </div>
     </div>
     <table width="200" border="0" align="center" cellpadding="1" cellspacing="20">
-  <tr>
-    <td width="133">아이디</td>
-    <td width="591"><form id="form1" name="form1" method="post" action="">
-      <label for="idfield"></label>
-      <input type="text" name="idfield" id="idfield" />
-    (영문소문자/숫자, 4~16자)　
+    <tr><td colspan="2"><div align="center">저희 쇼핑몰을 이용해주셔서 감사합니다.</div></td>
+      </tr>
+      <tr>
+            <td width="190"><div align="center">아이디</div></td>
+            <td width="534"><div align="center">아이디</div></td>
+          </tr>
+          <tr>
+            <td><div align="center">이름</div></td>
+            <td><label for="namefield">
+              <div align="center">이름</div>
+            </label></td>
+          </tr>
+          <tr>
+            <td><div align="center">이메일</div></td>
+            <td><label for="emailfield"></label>
+              <label for="mailsel">
+                <div align="center">이메일</div>
+              </label></td>
+          </tr>
+          <tr>
+            <td colspan="2">　　　　　　　　　　　　　　　　　　　　　　　　　
+              <div align="center">
+                <input name="submit" type="submit" class="submit" id="submit" value="로그인하기" />
+              </div>
     
-    
-    <input type="submit" name="logincheck" id="logincheck" value="중복확인" />
-    </form></td>
-  </tr>
-  <tr>
-    <td>비밀번호</td>
-    <td><form id="form2" name="form2" method="post" action="">
-      <label for="password"></label>
-      <input type="password" name="password" id="password" />
-    (영문 대소문자/숫자/특수문자 중 2가지 이상 조합, 10자~16자)
-    </form></td>
-  </tr>
-  <tr>
-    <td>이름</td>
-    <td><form id="form3" name="form3" method="post" action="">
-      <label for="namefield"></label>
-      <input type="text" name="namefield" id="namefield" />
-    </form></td>
-  </tr>
-  <tr>
-    <td>전화번호</td>
-    <td><form id="form4" name="form4" method="post" action="">
-      <label for="telfield"></label>
-      <input type="text" name="telfield" id="telfield" />
-    </form></td>
-  </tr>
-  <tr>
-    <td>이메일</td>
-    <td><form id="form5" name="form5" method="post" action="">
-      <label for="emailfield"></label>
-      <input type="text" name="emailfield" id="emailfield" />
-      <label for="mailsel"></label>
-    </form></td>
-  </tr>
-  <tr>
-    <td>sns 수신동의여부</td>
-    <td><form id="form6" name="form6" method="post" action="">
-      <p>
-        <label>
-          <input type="radio" name="snsyn" value="동의" id="snsyn_0" />
-          동의</label>
-        <label>
-          <input type="radio" name="snsyn" value="비동의" id="snsyn_1" />
-          비동의</label>
-        <br />
-      </p>
-    </form></td>
-  </tr>
-  <tr>
-    <td>E-mail 수신동의여부</td>
-    <td><form id="form7" name="form7" method="post" action="">
-      <p>
-        <label>
-          <input type="radio" name="emailyn" value="동의" id="emailyn_0" />
-          동의</label>
-        <label>
-          <input type="radio" name="emailyn" value="비동의" id="emailyn_1" />
-          비동의</label>
-        <br />
-      </p>
-    </form></td>
-  </tr>
-  <tr>
-    <td colspan="2"><form id="form8" name="form8" method="post" action="">
-      <div align="left">　　　　　　　　　　　　　　　　　　　　　　　　　
-        <input name="submit" type="submit" class="submit" id="submit" value="SUBMIT" />
-      </div>
-    </form></td>
-    </tr>
-    
-</table>
-
-</div>  
+    </table>
+  </div>  
     </div>
   </div>
   <div id="footer">
