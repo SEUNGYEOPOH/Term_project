@@ -34,8 +34,8 @@ a:active {
       
     </div>
   </div>
-  <div id="page_header">
-    <div id="page_header_logo"><img src="webimages/page_header/Logo_03.png" width="200" height="100" /></div>
+<div id="page_header">
+  <div id="page_header_logo"><img src="webimages/page_header/Logo_03.png" width="200" height="100" /></div>
     <div id="menubar"><div id="menu">
 	<ul>
 		<li><a href="#">NEW</a>
@@ -83,96 +83,8 @@ a:active {
       <div align="center"><a href="#">로그인</a> 　　<a href="#">회원가입</a></div>
     </div>
   </div>
-  <div id="main"> <style media="screen">
-      *{
-        margin: 0; padding: 0;
-      }
-      .slide{
-        width: 1300px;
-        height: 650px;
-        overflow: hidden;
-        position: relative;
-        margin: 0 auto;
-      }
-      .slide ul{
-        width: 5000px;
-        position: absolute;
-        top:0;
-        left:0;
-        font-size: 0;
-      }
-      .slide ul li{
-        display: inline-block;
-      }
-      #back{
-        position: absolute;
-        top: 250px;
-        left: 0;
-        cursor: pointer;
-        z-index: 1;
-      }
-      #next{
-        position: absolute;
-        top: 250px;
-        right: 0;
-        cursor: pointer;
-        z-index: 1;
-      }
-     </style>
-  </head>
-  <body>
-    <div class="slide"><img src="webimages/main/back.png" width="482" height="482" />
-      <ul>
-        <li><img src="webimages/main/name1.jpg" width="1300" height="650" /></li>
-        <li><img src="webimages/main/name2.jpg" width="1300" height="650" /></li>
-        <li><img src="webimages/main/name3.jpg" width="1300" height="650" /></li>
-      </ul>
-<img src="webimages/main/next.png" width="481" height="481" /> </div>
-</body>
-
-  <script type="text/javascript">
-    $(document).ready(function(){
-      var imgs;
-      var img_count;
-      var img_position = 1;
-
-      imgs = $(".slide ul");
-      img_count = imgs.children().length;
-
-      //버튼을 클릭했을 때 함수 실행
-      $('#back').click(function () {
-        back();
-      });
-      $('#next').click(function () {
-        next();
-      });
-
-      function back() {
-        if(1<img_position){
-          imgs.animate({
-            left:'+=1300px'
-          });
-          img_position--;
-        }
-      }
-      function next() {
-        if(img_count>img_position){
-          imgs.animate({
-            left:'-=1300px'
-          });
-          img_position++;
-        }
-      }
-
-
-      //이미지 끝까지 가면 버튼 사라지기
-
-
-      //첫 이미지로 돌아오기
-
-
-    });
-  </script></div>
+  <div id="main">
+    </div>
   <div id="new_arrivals">
     <div id="new_arrival_title">
       <h2 align="center">NEW ARRIVALS</h2>
