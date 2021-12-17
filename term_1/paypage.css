@@ -187,7 +187,7 @@ menu박스 가운데정렬, 글자가운데 정렬 */
 	font-size: 12px;
 	float: left;
 	width: 800px;
-	margin-top: 40px;
+	margin-top: 10px;
 	margin-right: 250px;
 	margin-left: 250px;
 	height: auto;
@@ -199,39 +199,69 @@ menu박스 가운데정렬, 글자가운데 정렬 */
 	border: thin solid #666;
 }
 #product_info {
+	float: left;
+	height: 300px;
+	width: 1100px;
+	margin-top: 50px;
+	margin-right: 100px;
+	margin-left: 100px;
+}
+#product_info table {
+	height: 200px;
+	width: 1100px;
+	float: left;
 	font-family: "맑은 고딕";
+	font-size: 14px;
+	color: #000;
+}
+#product_image {
+	float: left;
+	height: 120px;
+	width: 120px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	margin-left: 40px;
+}
+#product_detail {
 	float: left;
 	height: 100px;
-	width: 800px;
-	margin-right: 250px;
-	margin-left: 250px;
-	margin-top: 25px;
+	width: 250px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: 50px;
 }
-#wrap #main #product_info table {
-	font-family: "맑은 고딕";
-	height: 80px;
-	width: 800px;
-	border: thin solid #666;
-}
-#payment {
+#button_div {
 	float: left;
-	height: 400px;
-	width: 800px;
-	margin-right: 250px;
-	margin-left: 250px;
-	margin-top: 25px;
+	height: 80px;
+	width: 220px;
+	margin-right: 540px;
+	margin-left: 540px;
+	margin-top: 20px;
 }
-#wrap #main #payment table {
+
+#button_div input {
 	font-family: "맑은 고딕";
-	height: 400px;
-	width: 800px;
-	border: thin solid #666;
+	font-size: 16px;
+	color: #FFF;
+	background-color: #000;
+	height: 80px;
+	width: 225px;
 }
-div #pay {
+
+#button_div input:hover {
+
+  background: #06F; 
+
+  color: white;
+
+}
+#order_title {
+	float: left;
+	height: 40px;
+	width: 140px;
+	margin-left: 250px;
 	font-family: "맑은 고딕";
 	font-size: 22px;
-	background-color: #000;
-	height: 55px;
-	width: 200px;
-	color: #FFF;
+	margin-top: 20px;
+	border: 0px none #6B6B6B;
 }

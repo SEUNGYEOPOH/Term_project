@@ -53,7 +53,10 @@
       
     </div>
     <div id="page_right_menu">
-      <div align="center"><a href="#">로그인</a> 　　<a href="#">회원가입</a></div>
+      <div align="center">
+        <p>&nbsp;</p>
+        <p><a href="#">로그인</a> 　　<a href="#">회원가입</a></p>
+      </div>
     </div>
   </div>
   <div id="main">
@@ -61,67 +64,68 @@
       <div align="center"><strong>ORDER / PAYMENT</strong></div>
    
     </div>
+    <div id="product_info">
+      <table width="200" border="0" cellspacing="10" cellpadding="1">
+        <tr>
+          <td width="516" height="42"><div align="center">상품정보</div></td>
+          <td width="132"><div align="center">수량</div></td>
+          <td width="134"><div align="center">배송비</div></td>
+          <td width="260"><div align="center">상품금액</div></td>
+        </tr>
+        <tr>
+          <td><div align="center">
+            <div id="product_image">여기에  id "product_image"의 내용 입력</div>
+            <div id="product_detail">여기에  id "product_detail"의 내용 입력</div>
+          </div></td>
+          <td><div align="center">수량</div></td>
+          <td><div align="center">배송비</div></td>
+          <td><div align="center">상품금액</div></td>
+        </tr>
+      </table>
+    </div>
+    <div id="order_title"><strong>배송지 입력</strong></div>
     <div id="order">
       <table width="800" border="0" cellspacing="10" cellpadding="1">
-        <tr>
-          <td width="145">수령인</td>
-          <td width="617">수령인</td>
-        </tr>
-        <tr>
-          <td>전화번호</td>
-          <td>전화번호</td>
-        </tr>
-        <tr>
-          <td>배송지 주소</td>
-          <td>배송지 주소</td>
-        </tr>
-        <tr>
-          <td>배송 메모</td>
-          <td>배송 메모</td>
-        </tr>
+      <tr>
+        <td><table width="800" border="0" cellspacing="10" cellpadding="1">
+          <tr>
+            <td width="145">수령인</td>
+            <td width="617">수령인</td>
+          </tr>
+          <tr>
+            <td>전화번호</td>
+            <td>전화번호</td>
+          </tr>
+          <tr>
+            <td rowspan="3">배송지 주소</td>
+            <td>우편번호</td>
+          </tr>
+          <tr>
+            <td>주소</td>
+          </tr>
+          <tr>
+            <td>상세주소</td>
+          </tr>
+          <tr>
+            <td>배송 메모</td>
+            <td><label for="memo"></label>
+              <select name="memo" id="memo">
+                <option value="배송 시 요청사항을 선택해주세요" selected="selected">배송 시 요청사항을 선택해주세요</option>
+                <option value="부재 시 경비실에 맡겨주세요">부재 시 경비실에 맡겨주세요</option>
+                <option value="부재 시 택배함에 넣어주세요">부재 시 택배함에 넣어주세요</option>
+                <option value="부재 시 집 앞에 놔주세요">부재 시 집 앞에 놔주세요</option>
+                <option value="배송 전 연락 바랍니다">배송 전 연락 바랍니다</option>
+                <option value="파손의 위험이 있는 상품입니다 배송 시 주의해주세요">파손의 위험이 있는 상품입니다 배송 시 주의해주세요</option>
+              </select></td>
+          </tr>
+        </table></td>
+      </tr>
       </table>
-      
+    </div>
+    <div id="button_div"><input name="buynow" type="button" value="결제하기" /></div>
 
-    </div>
-    <div id="product_info">
-      <table width="800" border="0" cellspacing="10" cellpadding="1">
-        <tr>
-          <td>상품이미지</td>
-          <td>상품명</td>
-          <td>가격</td>
-          <td>수량</td>
-        </tr>
-      </table>
-    </div>
-    <div id="payment">
-      <table width="800" border="0" cellspacing="10" cellpadding="1">
-        <tr>
-          <td width="163">고객아이디</td>
-          <td width="603">고객아이디</td>
-        </tr>
-        <tr>
-          <td>카드사</td>
-          <td>카드사</td>
-        </tr>
-        <tr>
-          <td>카드번호</td>
-          <td>카드번호</td>
-        </tr>
-        <tr>
-          <td>유효기간</td>
-          <td>유효기간</td>
-        </tr>
-        <tr>
-          <td>지불금액</td>
-          <td>지불금액</td>
-        </tr>
-        <tr>
-          <td colspan="2"><div align="center">
-            <input type="submit" name="pay" id="pay" value="결제" />
-          </div></td>
-        </tr>
-      </table>
-    </div>
+   
+
   </div>
   <div id="footer">
     <div id="footer_copyright">

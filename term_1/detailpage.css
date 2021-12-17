@@ -103,6 +103,131 @@ menu박스 가운데정렬, 글자가운데 정렬 */
 	
 	</style>
 	
+
+}#main {
+	float: left;
+	height: auto;
+	width: 1300px;
+}
+
+.detail_image {
+	float: left;
+	height: 700px;
+	width: 600px;
+	margin-left: 50px;
+}
+.detailimage_name {
+	float: left;
+	height: 50px;
+	width: 300px;
+	margin-left: 100px;
+	font-family: "맑은 고딕";
+	font-size: 20px;
+	color: #000;
+	font-weight: bold;
+}
+.detail_select {
+	float: left;
+	height: 300px;
+	width: 500px;
+	margin-top: 10px;
+	margin-left: 100px;
+}
+#main .detail_select table {
+	height: 300px;
+	width: 500px;
+	font-family: "맑은 고딕";
+	font-size: 14px;
+	color: #333;
+	border-top-width: thin;
+	border-right-width: thin;
+	border-bottom-width: thin;
+	border-left-width: thin;
+	border-top-style: solid;
+	border-top-color: #999;
+	border-right-color: #999;
+	border-bottom-color: #999;
+	border-left-color: #999;
+}
+
+<style>
+
+
+
+.time {
+	float: left;
+	height: 50px;
+	width: 860px;
+	margin-top: 280px;
+	font-size: 16px;
+	font-family: "맑은 고딕";
+}
+
+#main .detail_info {
+	float: left;
+	height: auto;
+	width: 860px;
+	margin-top: 200px;
+	margin-right: 220px;
+	margin-left: 220px;
+	border-top-width: thin;
+	border-right-width: thin;
+	border-bottom-width: thin;
+	border-left-width: thin;
+	border-top-style: solid;
+	border-top-color: #999;
+	border-right-color: #999;
+	border-bottom-color: #999;
+	border-left-color: #999;
+}
+.Top {
+	float: right;
+	height: 110px;
+	width: 110px;
+	margin-top: 40px;
+	margin-right: 5px;
+}
+#top {
+	float: left;
+	height: 70px;
+	width: 1300px;
+}
+div #buy {
+	font-family: "맑은 고딕";
+	font-size: 16px;
+	color: #FFF;
+	background-color: #000;
+	height: 60px;
+	width: 245px;
+	float: left;
+}
+div #cart {
+	font-family: "맑은 고딕";
+	font-size: 16px;
+	color: #000;
+	background-color: #CCC;
+	float: right;
+	height: 60px;
+	width: 230px;
+}
+
+div #buy:hover {
+
+  background: white; 
+
+  color: black;
+
+}
+
+
+div #cart:hover {
+
+  background: white; 
+
+  color: black;
+
+}
+
 		#footer {
 	float: left;
 	height: 200px;
@@ -146,146 +271,5 @@ menu박스 가운데정렬, 글자가운데 정렬 */
 }
 #wrap #footer .footer_ban h4 {
 	font-size: 12px;
-}#main {
-	float: left;
-	height: auto;
-	width: 1300px;
-}
-.detail_image {
-	float: left;
-	height: 700px;
-	width: 600px;
-	margin-left: 50px;
-}
-.detailimage_name {
-	float: left;
-	height: 50px;
-	width: 300px;
-	margin-left: 100px;
-	font-family: "맑은 고딕";
-	font-size: 20px;
-	color: #000;
-	font-weight: bold;
-}
-.detail_select {
-	float: left;
-	height: 300px;
-	width: 500px;
-	margin-top: 10px;
-	margin-left: 100px;
-}
-#main .detail_select table {
-	height: 300px;
-	width: 500px;
-	font-family: "맑은 고딕";
-	font-size: 14px;
-	color: #333;
-	border-top-width: thin;
-	border-right-width: thin;
-	border-bottom-width: thin;
-	border-left-width: thin;
-	border-top-style: solid;
-	border-top-color: #999;
-	border-right-color: #999;
-	border-bottom-color: #999;
-	border-left-color: #999;
-}
-
-<style>
-
-#wrap #main .detail_select table tr td #form1 #buy {
-	font-family: "맑은 고딕";
-	font-size: 16px;
-	color: #FFF;
-	background-color: #000;
-	height: 30px;
-	width: 200px;
-}
-#wrap #main .detail_select table tr td #form1 #buy {
-	font-family: "맑은 고딕";
-	font-size: 16px;
-	color: #FFF;
-	background-color: #000;
-	width: 250px;
-	height: 60px;
-	float: left;
 	
-}
-#wrap #main .detail_select table tr td #form1 #buy:hover {
-
-  background: white; 
-
-  color: black;
-
-}
-#wrap #main .detail_select table tr td #form2 #color {
-	font-family: "맑은 고딕";
-	color: #333;
-	background-color: #FFFFFF;
-	height: 30px;
-	width: 50px;
-}
-
-
-#wrap #main .detail_select table tr td #form1 div #cart {
-	font-family: "맑은 고딕";
-	font-size: 16px;
-	color: #000;
-	background-color: #CCC;
-	float: right;
-	height: 60px;
-	width: 228px;
-}
-#wrap #main .detail_select table tr td #form2 #color1 {
-	height: 30px;
-	width: 50px;
-	color: #333333;
-	font-family: "맑은 고딕";
-	background-color: #FFFFFF;
-}
-
-
-#wrap #main .detail_select table tr td #form1 div #cart:hover {
-
-  background: white; 
-
-  color: black;
-
-}
-.detail_info {
-	float: left;
-	height: auto;
-	width: 860px;
-	margin-top: 200px;
-	margin-right: 220px;
-	margin-left: 220px;
-	border-top-width: thin;
-	border-right-width: thin;
-	border-bottom-width: thin;
-	border-left-width: thin;
-	border-top-style: solid;
-	border-top-color: #999;
-	border-right-color: #999;
-	border-bottom-color: #999;
-	border-left-color: #999;
-}
-.time {
-	float: left;
-	height: 50px;
-	width: 860px;
-	margin-top: 280px;
-	font-size: 16px;
-	font-family: "맑은 고딕";
-}
-.Top {
-	float: right;
-	height: 110px;
-	width: 110px;
-	margin-top: 40px;
-	margin-right: 5px;
-}
-#top {
-	float: left;
-	height: 70px;
-	width: 1300px;
 }
