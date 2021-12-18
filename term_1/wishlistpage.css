@@ -1,0 +1,406 @@
+@charset "utf-8";
+@import url("양진체/stylesheet.css");
+#wrap {
+	float: left;
+	height: auto;
+	width: 1300px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#page_header {
+	float: left;
+	height: 100px;
+	width: 100%;
+	background-color: #e6e1dc;
+}
+
+#page_header_logo {
+	float: left;
+	height: 100px;
+	width: 200px;
+}
+#menubar {
+	float: left;
+	height: 40px;
+	width: 600px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	font-size: 14px;
+	font-family: "맑은 고딕";
+	font-weight: bold;
+	margin-left: 0px;
+	color: #FFF;
+}
+#page_right_menu {
+	float: right;
+	height: 90px;
+	width: 300px;
+	margin-top: 10px;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+<style type="text/css">
+/* 전체영역에서 여백을 없애줌 */
+	* {
+		margin: 0;
+		padding: 0;
+	}
+/* ul li태그에 리스트 스타일을 없앰 */
+	ul li{
+		list-style: none;
+	}
+/* a태그에 텍스트 밑줄을 없애고 색상을 #333 */
+	a {
+		text-decoration: none;
+		color:#333;
+	}
+/* 글자크기를 16px 맑은 고딕 굵게하고 width넓이 700, 높이 50만큼 배경색은 #ccc, 글자색은 검정색, 라인높이50px
+menu박스 가운데정렬, 글자가운데 정렬 */
+	#menu {
+	font: bold 12px "malgun gothic";
+	width: 800px;
+	height: 20px;
+	background: #e6e1dc;
+	color: black;
+	line-height: 50px;
+	text-align: center;
+	float: left;
+	margin-top: auto;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	}
+
+/* menu태그 자식의 ul의 자식 li를 왼쪽정렬과 넓이 140설정 */
+	#menu > ul > li {
+		float:left;
+		width:100px;
+		position:relative;
+	}
+	
+	#menu > ul > li > ul {
+	width: 90px;
+	display: none;
+	position: absolute;
+	font-size: 11px;
+	background: white;
+	float: left;
+	}
+	
+	#menu > ul > li > ul > li {
+	text-align:left;
+	
+		}
+	
+	#menu > ul > li > ul > li:hover {
+	background: white;
+	transition: ease 1s;
+		}
+		
+	#menu > ul > li:hover > ul {
+		display:block;
+	}
+	
+	</style>
+	
+	}#main {
+	float: left;
+	height: auto;
+	width: 1300px;
+	margin-top: 90px;
+
+}#cart_title {
+	float: left;
+	height: 60px;
+	width: 400px;
+	font-family: "맑은 고딕";
+	font-size: 28px;
+	margin-right: 450px;
+	margin-left: 450px;
+	border-top-width: thick;
+	border-right-width: thick;
+	border-bottom-width: thick;
+	border-left-width: thick;
+	border-bottom-style: solid;
+	border-top-color: #000;
+	border-right-color: #000;
+	border-bottom-color: #000;
+	border-left-color: #000;
+}
+
+#wrap #main #cart_title div {
+	font-weight: bold;
+
+}
+
+.basketdiv {
+    width: 100%;
+    border-top: 1px solid #e0e0e0;
+    float: left;
+    font-size: 0.9375em;
+    margin-bottom: 20px;
+}
+    .basketdiv .row.head {
+        border-bottom: 2px solid #888;
+        box-sizing: border-box;
+        background-color: #f4f4f4;
+        font-weight: 500;
+    }
+    .basketdiv .data {
+        border-bottom: 1px dashed #888;
+        box-sizing: border-box;
+        cursor: pointer;
+        float: left;
+        width: 100%;
+    }
+    .basketdiv .data .empty{
+        text-align: center;
+        padding: 12px 0;
+    }
+    .basketdiv .row.head .subdiv {
+        background-color: #f4f4f4;
+    }
+    .basketdiv .row > .subdiv {
+        display: block;
+        float: left;
+    }
+    .basketdiv .row > .subdiv:nth-child(1) {
+        width: 50%;
+    }
+    .basketdiv .row > .subdiv:nth-child(2) {
+        width: 40%;
+    }
+    .basketdiv .row > .subdiv:nth-child(3) {
+        width: 10%;
+    }
+    .basketdiv2 .row > .subdiv:nth-child(1) {
+        width: 60%;
+    }
+    .basketdiv2 .row > .subdiv:nth-child(2) {
+        width: 40%;
+    }
+    .basketdiv .row > div > div {
+        display: block;
+        float: left;
+        text-align: center;
+        margin: 0;
+        padding: 12px 0;
+    }
+    .basketdiv .row.data > div > div {
+        height: 60px;
+        line-height: 60px;
+    }
+        .basketdiv .data .num .updown {
+            color: #0075ff;
+            font-size: 2em;
+            letter-spacing: -5px;
+        }
+        .basketdiv .check {
+            width: 10%;
+        }
+    .basketdiv .check input[type=checkbox] {
+        transform: scale(1.5);
+    }
+    .basketdiv .img{
+        width: 20%;
+    }
+    .basketdiv .pname{
+        width: 70%;
+    }
+    .basketdiv2 .pname {
+        width: 80%;
+    }
+    .basketdiv .basketprice {
+        width: 33%;
+    }
+    .basketdiv .num {
+        width: 33%;
+      min-width: 105px;
+    }
+    .basketdiv .sum {
+        width: 34%;
+      max-width: 80px;
+        color: #0000aa;
+    }
+    .basketdiv .point {
+        width: 50%;
+    }
+    .basketdiv2 .basketprice {
+        width: 25%;
+    }
+
+    .basketdiv2 .num {
+        width: 25%;
+    }
+
+    .basketdiv2 .sum {
+        width: 25%;
+        color: #0000aa;
+    }
+
+    .basketdiv2 .point {
+        width: 25%;
+    }
+    .basketdiv .basketcmd{
+        width: 100%;
+    }
+    .basketdiv .data .pname {
+        text-align: left !important;
+      line-height: 1.2 !important;
+    }
+    .basketdiv .data .price, .basketdiv .data .sum, .basketdiv .data .point {
+        text-align: right;
+    }
+    .baseform > tbody > tr > td:first-child {
+        width: 100px;
+    }
+
+.buttongroup {
+    padding: 11px 0;
+    margin: 50px 0;
+}
+.narrowbuttongroup{
+    margin: 15px 0;
+}
+    .buttongroup.center {
+        text-align: center;
+    }
+    .buttongroup input[type=text], .buttongroup input[type=password] {
+        height: 30px;
+    }
+    .buttongroup button, .buttongroup a {
+        margin-right: 5px;
+    }
+        .buttongroup button:last-child, .buttongroup a:last-child {
+            margin-right: 0;
+        }
+
+    .abutton, .abutton:link, .abutton:visited, .abutton:active, input[type=button] {
+        background-color: #383838;
+        border: 1px solid #888888;
+        color: #ffffff;
+        cursor: pointer;
+        letter-spacing: -1px;
+        padding: 3px 5px;
+        margin: 2px 3px;
+        width: auto;
+        word-break: keep-all;
+        border-radius: 5px;
+        text-decoration: none;
+        font-size: 0.9375em;
+    }
+
+.abutton-alt {
+    background-color: #d3e2c6;
+}
+
+.red {
+    color:#b00;
+}
+.blue {
+  color: #0075ff;
+}
+.basketrowcmd, .sumcount, .summoney{
+  text-align: right;
+  margin-bottom: 10px;
+}
+.sumcount, .summoney{
+  font-size: 1.25em;
+    font-weight: bold;
+}
+.buttongroup{
+  text-align: center;
+}
+.buttongroup a{
+  text-decoration: none;
+}
+.cmd a, .cmd span {
+    padding: 12px 30px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: #000;
+    background-color: #f4f4f4;
+    border: 1px solid #e0e0e0;
+    text-align: center;
+}
+.cmd.small a, .cmd.small span {
+    padding: 6px 20px;
+    font-size: 0.8125em;
+}
+
+.orderform .p_num {
+    text-align: right;
+    width: 40px;
+    font-size: 1em;
+}
+
+	
+	#footer {
+	float: left;
+	height: 200px;
+	width: 100%;
+	border-top-width: thin;
+	border-right-width: thin;
+	border-bottom-width: thin;
+	border-left-width: thin;
+	border-top-style: solid;
+	border-top-color: #999;
+	border-right-color: #999;
+	border-bottom-color: #999;
+	border-left-color: #999;
+}
+
+#footer_copyright {
+	float: left;
+	height: 150px;
+	width: 300px;
+	margin-top: 40px;
+	margin-left: 20px;
+	font-size: 10px;
+}
+.footer_ban {
+	float: left;
+	height: 100px;
+	width: 210px;
+	margin-top: 40px;
+	margin-left: 30px;
+	font-size: 10px;
+}
+#footer_bottom {
+	float: left;
+	height: 40px;
+	width: 1300px;
+	margin-top: 20px;
+	background-color: #555555;
+	color: #FFF;
+	font-family: "맑은 고딕";
+	font-size: 14px;
+}
+#wrap #footer .footer_ban h4 {
+	font-size: 12px;
+}#main {
+	float: left;
+	height: auto;
+	width: 1300px;
+	margin-top: 90px;
+}#cart_title {
+	float: left;
+	height: 60px;
+	width: 400px;
+	font-family: "맑은 고딕";
+	font-size: 28px;
+	margin-right: 450px;
+	margin-left: 450px;
+	border-top-width: thick;
+	border-right-width: thick;
+	border-bottom-width: thick;
+	border-left-width: thick;
+	border-bottom-style: solid;
+	border-top-color: #000;
+	border-right-color: #000;
+	border-bottom-color: #000;
+	border-left-color: #000;
+}

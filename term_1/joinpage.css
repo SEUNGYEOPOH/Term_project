@@ -1,0 +1,215 @@
+@charset "utf-8";
+
+#wrap {
+	height: auto;
+	width: 1300px;
+	float: none;
+	margin-right: auto;
+	margin-left: auto;
+}
+#header_exchange {
+	float: left;
+	height: 20px;
+	width: 100%;
+	font-family: "맑은 고딕";
+	font-size: 16px;
+	color: #FFF;
+	background-color: #000;
+}
+#page_header {
+	float: left;
+	height: 100px;
+	width: 100%;
+	background-color: #e6e1dc;
+}
+
+#page_header_logo {
+	float: left;
+	height: 100px;
+	width: 200px;
+}
+#menubar {
+	float: left;
+	height: 40px;
+	width: 600px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	font-size: 14px;
+	font-family: "맑은 고딕";
+	font-weight: bold;
+	margin-left: 0px;
+	color: #FFF;
+}
+
+
+#page_right_menu {
+	float: right;
+	height: 90px;
+	width: 300px;
+	margin-top: 10px;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+<style type="text/css">
+/* 전체영역에서 여백을 없애줌 */
+	* {
+		margin: 0;
+		padding: 0;
+	}
+/* ul li태그에 리스트 스타일을 없앰 */
+	ul li{
+		list-style: none;
+	}
+/* a태그에 텍스트 밑줄을 없애고 색상을 #333 */
+	a {
+		text-decoration: none;
+		color:#333;
+	}
+/* 글자크기를 16px 맑은 고딕 굵게하고 width넓이 700, 높이 50만큼 배경색은 #ccc, 글자색은 검정색, 라인높이50px
+menu박스 가운데정렬, 글자가운데 정렬 */
+	#menu {
+	font: bold 12px "malgun gothic";
+	width: 800px;
+	height: 20px;
+	background: #e6e1dc;
+	color: black;
+	line-height: 50px;
+	text-align: center;
+	float: left;
+	margin-top: auto;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	}
+
+/* menu태그 자식의 ul의 자식 li를 왼쪽정렬과 넓이 140설정 */
+	#menu > ul > li {
+		float:left;
+		width:100px;
+		position:relative;
+	}
+	
+	#menu > ul > li > ul {
+	width: 90px;
+	display: none;
+	position: absolute;
+	font-size: 11px;
+	background: white;
+	float: left;
+	}
+	
+	#menu > ul > li > ul > li {
+	text-align:left;
+	
+		}
+	
+	#menu > ul > li > ul > li:hover {
+	background: white;
+	transition: ease 1s;
+		}
+		
+	#menu > ul > li:hover > ul {
+		display:block;
+	}
+	
+	</style>
+
+}#main {
+	height: 800px;
+	width: 1300px;
+}
+
+#main_title {
+	height: 100px;
+	width: 400px;
+	margin-top: 40px;
+	margin-right: 450px;
+	margin-left: 450px;
+	font-weight: bold;
+	font-size: 24px;
+	font-family: "맑은 고딕";
+	border-top-width: thick;
+	border-right-width: thick;
+	border-bottom-width: thick;
+	border-left-width: thick;
+	border-bottom-style: solid;
+	border-top-color: #000;
+	border-right-color: #000;
+	border-bottom-color: #000;
+	border-left-color: #000;
+}
+
+#main table {
+	height: 300px;
+	width: 800px;
+	margin-top: 150px;
+	margin-right: 250px;
+	margin-left: 250px;
+	font-size: 12px;
+	font-family: "맑은 고딕";
+	border-top-width: thick;
+	border-right-width: thick;
+	border-bottom-width: thick;
+	border-left-width: thick;
+	border-left-style: solid;
+	border-top-color: #000;
+	border-right-color: #000;
+	border-bottom-color: #000;
+	border-left-color: #000;
+	border-right-style: solid;
+}
+.submit {
+	font-family: "맑은 고딕";
+	font-size: 16px;
+	color: #FFF;
+	background-color: #000;
+	height: 40px;
+	width: 150px;
+}
+
+	#footer {
+	float: left;
+	height: 200px;
+	width: 100%;
+	border-top-width: thin;
+	border-right-width: thin;
+	border-bottom-width: thin;
+	border-left-width: thin;
+	border-top-style: solid;
+	border-top-color: #999;
+	border-right-color: #999;
+	border-bottom-color: #999;
+	border-left-color: #999;
+	margin-top: 50px;
+}
+
+#footer_copyright {
+	float: left;
+	height: 150px;
+	width: 300px;
+	margin-top: 40px;
+	margin-left: 20px;
+	font-size: 10px;
+}
+.footer_ban {
+	float: left;
+	height: 100px;
+	width: 210px;
+	margin-top: 40px;
+	margin-left: 30px;
+	font-size: 10px;
+}
+#footer_bottom {
+	float: left;
+	height: 40px;
+	width: 1300px;
+	margin-top: 20px;
+	background-color: #555555;
+	color: #FFF;
+	font-family: "맑은 고딕";
+	font-size: 14px;
+}
+#wrap #footer .footer_ban h4 {
+	font-size: 12px;
+}
