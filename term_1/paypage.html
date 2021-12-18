@@ -55,7 +55,7 @@
     <div id="page_right_menu">
       <div align="center">
         <p>&nbsp;</p>
-        <p><a href="#">로그인</a> 　　<a href="#">회원가입</a></p>
+        <p><a href="#">로그인</a> 　　<a href="#">회원가입</a> 　마이페이지</p>
       </div>
     </div>
   </div>
@@ -85,26 +85,29 @@
     </div>
     <div id="order_title"><strong>배송지 입력</strong></div>
     <div id="order">
-      <table width="800" border="0" cellspacing="10" cellpadding="1">
-      <tr>
-        <td><table width="800" border="0" cellspacing="10" cellpadding="1">
+  <table width="800" border="0" cellspacing="10" cellpadding="1">
           <tr>
             <td width="145">수령인</td>
-            <td width="617">수령인</td>
+            <td width="617"><label for="recipient"></label>
+              <input name="recipient" type="text" id="recipient" value="수령인" /></td>
           </tr>
           <tr>
             <td>전화번호</td>
-            <td>전화번호</td>
+            <td><label for="tel"></label>
+              <input name="tel" type="text" id="tel" value="010-0000-0000" /></td>
           </tr>
           <tr>
             <td rowspan="3">배송지 주소</td>
-            <td>우편번호</td>
+            <td><label for="postcode"></label>
+              <input name="postcode" type="text" id="postcode" value="우편번호" /></td>
           </tr>
           <tr>
-            <td>주소</td>
+            <td><label for="address"></label>
+              <input name="address" type="text" id="address" value="주소" /></td>
           </tr>
           <tr>
-            <td>상세주소</td>
+            <td><label for="address_detail"></label>
+              <input name="address_detail" type="text" id="address_detail" value="상세주소" /></td>
           </tr>
           <tr>
             <td>배송 메모</td>
@@ -120,7 +123,6 @@
           </tr>
         </table></td>
       </tr>
-      </table>
     </div>
     <div id="button_div"><input name="buynow" type="button" value="결제하기" /></div>
 

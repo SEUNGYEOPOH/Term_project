@@ -104,49 +104,7 @@ menu박스 가운데정렬, 글자가운데 정렬 */
 	
 	</style>
 	
-	#footer {
-	float: left;
-	height: 200px;
-	width: 100%;
-	border-top-width: thin;
-	border-right-width: thin;
-	border-bottom-width: thin;
-	border-left-width: thin;
-	border-top-style: solid;
-	border-top-color: #999;
-	border-right-color: #999;
-	border-bottom-color: #999;
-	border-left-color: #999;
-}
 
-#footer_copyright {
-	float: left;
-	height: 150px;
-	width: 300px;
-	margin-top: 40px;
-	margin-left: 20px;
-	font-size: 10px;
-}
-.footer_ban {
-	float: left;
-	height: 100px;
-	width: 210px;
-	margin-top: 40px;
-	margin-left: 30px;
-	font-size: 10px;
-}
-#footer_bottom {
-	float: left;
-	height: 40px;
-	width: 1300px;
-	margin-top: 20px;
-	background-color: #555555;
-	color: #FFF;
-	font-family: "맑은 고딕";
-	font-size: 14px;
-}
-#wrap #footer .footer_ban h4 {
-	font-size: 12px;
 }#main {
 	float: left;
 	height: auto;
@@ -216,3 +174,47 @@ div #update {
 	font-family: "맑은 고딕";
 	font-size: 12px;
 }
+
+	#footer {
+	float: left;
+	height: 200px;
+	width: 100%;
+	border-top-width: thin;
+	border-right-width: thin;
+	border-bottom-width: thin;
+	border-left-width: thin;
+	border-top-style: solid;
+	border-top-color: #999;
+	border-right-color: #999;
+	border-bottom-color: #999;
+	border-left-color: #999;
+}
+
+#footer_copyright {
+	float: left;
+	height: 150px;
+	width: 300px;
+	margin-top: 40px;
+	margin-left: 20px;
+	font-size: 10px;
+}
+.footer_ban {
+	float: left;
+	height: 100px;
+	width: 210px;
+	margin-top: 40px;
+	margin-left: 30px;
+	font-size: 10px;
+}
+#footer_bottom {
+	float: left;
+	height: 40px;
+	width: 1300px;
+	margin-top: 20px;
+	background-color: #555555;
+	color: #FFF;
+	font-family: "맑은 고딕";
+	font-size: 14px;
+}
+#wrap #footer .footer_ban h4 {
+	font-size: 12px;
