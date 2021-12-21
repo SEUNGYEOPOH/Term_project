@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+#main_title {
+   height: 100px;
+   width: 400px;
+   margin-top: 20px;
+   margin-right: 450px;
+   margin-left: 450px;
+   font-weight: bold;
+   font-size: 24px;
+   font-family: "맑은 고딕";
+   border-top-width: thick;
+   border-right-width: thick;
+   border-bottom-width: thick;
+   border-left-width: thick;
+   border-bottom-style: solid;
+   border-top-color: #000;
+   border-right-color: #000;
+   border-bottom-color: #000;
+   border-left-color: #000;
+}
+#main table {
+   height: 300px;
+   width: 800px;
+   margin-top: 100px;
+   margin-right: 250px;
+   margin-left: 250px;
+   font-size: 12px;
+   font-family: "맑은 고딕";
+   border-top-width: thick;
+   border-right-width: thick;
+   border-bottom-width: thick;
+   border-left-width: thick;
+   border-left-style: solid;
+   border-top-color: #000;
+   border-right-color: #000;
+   border-bottom-color: #000;
+   border-left-color: #000;
+   border-right-style: solid;
+}
+.submit {
+   font-family: "맑은 고딕";
+   font-size: 16px;
+   color: #FFF;
+   background-color: #000;
+   height: 40px;
+   width: 150px;
+}
+#footer #footer_bottom a {
+   color: #FFF;
+}
+#footer #footer_bottom a {
+   color: #FFF;
+}
