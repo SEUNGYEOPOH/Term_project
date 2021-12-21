@@ -11,8 +11,29 @@
   <img src = "https://img.shields.io/badge/Language-MYSQL-blue">
   <img src = "https://img.shields.io/badge/Language-Adobe Dreamwever-pink"></p>
   
-## 🐧: What is Term_project?
-- A place where i organize what i studied.
-- It's a place to share Python with new people.
-- A place to test the git
+## 🐧 What is Term_project?
+- Term project in University class
+- Web page creation
 <br>
+
+## 🔃 Subject & Function
+### Subject
+- Men's Shopping Mall
+
+### Function
+Member
+- Join(KAKAO TALK OR BASIC)
+- Loing (PASSWORD VALIDATION)
+- Product Sort(By item, in order of product registration ...)
+- Cartlist
+- Buy(Iamport api -> Be careful as it is actually paid)
+- Order list inquiry
+- Member CRUD
+<br/>
+
+Admin
+- Product CRUD
+- Sales list inquiry
+
+## 📁 Files
+Term_Project : [Term_Project](https://github.com/SEUNGYEOPOH/Term_project/tree/main/TERM/Term_project)<br>
