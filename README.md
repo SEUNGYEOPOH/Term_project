@@ -23,7 +23,7 @@
 ### Function
 Member
 - Join(KAKAO TALK OR BASIC)
-- Loing (PASSWORD VALIDATION)
+- Login (PASSWORD VALIDATION)
 - Product Sort(By item, in order of product registration ...)
 - Cartlist
 - Buy(Iamport api -> Be careful as it is actually paid)
