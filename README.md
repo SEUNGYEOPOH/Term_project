@@ -7,9 +7,9 @@
   <img src = "https://img.shields.io/badge/Language-JQUERY-green"></p>
 
 
-<p align="center"><img src = "https://img.shields.io/badge/Language-ECLIPSE-purple">
-  <img src = "https://img.shields.io/badge/Language-MYSQL-blue">
-  <img src = "https://img.shields.io/badge/Language-Adobe Dreamwever-pink"></p>
+<p align="center"><img src = "https://img.shields.io/badge/TOOL-ECLIPSE-purple">
+  <img src = "https://img.shields.io/badge/TOOL-MYSQL-blue">
+  <img src = "https://img.shields.io/badge/TOOL-Adobe Dreamwever-pink"></p>
   
 ## 🐧 What is Term_project?
 - Term project in University class
